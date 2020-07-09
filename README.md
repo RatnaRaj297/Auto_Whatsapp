@@ -12,10 +12,10 @@
 
 **Python Version:** 3.7.6\
 **Packages:** Pandas, Schedule, Selenium\
-**For Web Framework requirement:**\ 
+**For Web Framework requirement:**
 >pip install selenium\
 >pip install schedule\
->pip install pandas\
+>pip install pandas
 
 ---
 #### Platform: Windows
