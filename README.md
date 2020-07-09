@@ -5,17 +5,17 @@
 + Created this tool to help automate Whatsapp marketing campaigns using Whatsapp Web. 
 + Takes in an excel file containing the contact numbers of the prospects and sends all of them the campaign message. The contact numbers need not necessarily be saved to the phone.
 + Campaigns can also be schduled to be sent on a given time.
-+ The script can be easily required to further personalize the campaigns
++ The script can be easily altered to further personalize the campaigns.
 
 ---
 ## Code and Resources Used:
 
 **Python Version:** 3.7.6\
 **Packages:** Pandas, Schedule, Selenium
-**For Web Framework requirement:**\ 
-`pip install selenium`\
-`pip install schedule`\
-`pip install pandas`\
+**For Web Framework requirement:** 
+>pip install selenium
+>pip install schedule
+>pip install pandas
 
 ---
 #### Platform: Windows
