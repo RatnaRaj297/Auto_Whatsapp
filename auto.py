@@ -19,8 +19,7 @@ parser.add_argument('-m', '--message', action='store', type=str, default='', hel
 # parser.add_argument('-r', '--remove_cache', action='store', type=str, default='False', help='Remove Cache | Scan QR again or Not')
 args = parser.parse_args()
 
-# if args.remove_cache == 'True':
-#     os.system('rm -rf User_Data/*')
+
 
 browser = None
 Contact = None
@@ -28,9 +27,7 @@ message = None if args.message == '' else args.message
 Link = "https://web.whatsapp.com/"
 wait = None
 choice = None
-docChoice = None
-doc_filename = None
-unsaved_Contacts = None
+
 
 
 
